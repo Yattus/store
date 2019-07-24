@@ -17,5 +17,12 @@ from django.urls import include, path
 from django.views.generic import TemplateView
 
 urlpatterns = [
-    path('store/', TemplateView.as_view()),
+    path('home/', TemplateView.as_view(template_name="index.html"),
+         name='home'),
+    path('product/', TemplateView.as_view(template_name="product.html"),
+         name="product"),
+    path('panier/', TemplateView.as_view(template_name="cart.html"),
+         name="cart"),
+    path('category/', TemplateView.as_view(template_name="category.html"),
+         name="category"),
 ]

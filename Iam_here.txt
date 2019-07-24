@@ -1,0 +1,4 @@
+1 create solde page or pass on wordpress
+    * create index small block in index.html
+2 call rachid to ask how to add Amanpay
+3 chatte on email with Amanpay guy.
